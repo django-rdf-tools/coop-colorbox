@@ -1,0 +1,2 @@
+recursive-include coop_bar/static *
+recursive-include coop_bar/templates *

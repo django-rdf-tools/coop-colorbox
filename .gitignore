@@ -1,0 +1,15 @@
+# File types #
+##############
+*.pyc
+*.tmproj
+*.egg-info
+/build
+/dist
+
+# OS generated files #
+######################
+.DS_Store
+Icon?
+Thumbs.db
+
+
