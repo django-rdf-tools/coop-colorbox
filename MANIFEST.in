@@ -1,2 +1,2 @@
-recursive-include coop_bar/static *
-recursive-include coop_bar/templates *
+recursive-include colorbox/static *
+recursive-include colorbox/templates *
