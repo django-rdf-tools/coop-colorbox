@@ -28,9 +28,11 @@
   <div class="main">
   <form id="template-form" {% if form.is_multipart %}enctype="multipart/form-data"{% endif %} action="{% block form_url %}{% endblock %}" method="post">
   {% csrf_token %}
+  {% block form_fields %}
   <table class="popup_form">
       {{form.as_table}}
   </table>
+  {% endblock %}
   <div class="popup_buttons">
   {% block popup_buttons %}
   <a href="" class="cancel_button">{% trans "Cancel" %}</a>
